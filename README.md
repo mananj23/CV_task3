@@ -32,47 +32,47 @@
  - And finally i compiled my model.
  - I also used ModelCheckpoint, this callback function monitors the validation loss during training and saves the model weights to a file when the validation loss improves.
  - I also created an object called 'history' containing all the information about the training process, such as loss and accuracy metrics over epochs.
- - I got the following accuracies in epochs from 1 to 20.
+ - I got the following accuracies in epochs from 1 to 20.<br>
 
- Epoch 1/20
- 500/500 [==============================] - 54s 103ms/step - loss: 0.5233 - accuracy: 0.7200 - val_loss: 0.3161 - val_accuracy: 0.8668
- Epoch 2/20
- 500/500 [==============================] - 51s 101ms/step - loss: 0.3167 - accuracy: 0.8633 - val_loss: 0.2704 - val_accuracy: 0.8801
- Epoch 3/20
- 500/500 [==============================] - 49s 98ms/step - loss: 0.2683 - accuracy: 0.8835 - val_loss: 0.2241 - val_accuracy: 0.9009
- Epoch 4/20
- 500/500 [==============================] - 53s 106ms/step - loss: 0.2350 - accuracy: 0.8991 - val_loss: 0.2178 - val_accuracy: 0.9011
- Epoch 5/20
- 500/500 [==============================] - 51s 102ms/step - loss: 0.2187 - accuracy: 0.9070 - val_loss: 0.1999 - val_accuracy: 0.9124
- Epoch 6/20
- 500/500 [==============================] - 48s 95ms/step - loss: 0.2044 - accuracy: 0.9138 - val_loss: 0.2045 - val_accuracy: 0.9054
- Epoch 7/20
- 500/500 [==============================] - 49s 98ms/step - loss: 0.1862 - accuracy: 0.9204 - val_loss: 0.2010 - val_accuracy: 0.9136
- Epoch 8/20
- 500/500 [==============================] - 51s 101ms/step - loss: 0.1785 - accuracy: 0.9236 - val_loss: 0.1842 - val_accuracy: 0.9206
- Epoch 9/20
- 500/500 [==============================] - 50s 101ms/step - loss: 0.1687 - accuracy: 0.9287 - val_loss: 0.1802 - val_accuracy: 0.9226
- Epoch 10/20
- 500/500 [==============================] - 49s 99ms/step - loss: 0.1588 - accuracy: 0.9327 - val_loss: 0.1749 - val_accuracy: 0.9276
- Epoch 11/20
- 500/500 [==============================] - 48s 97ms/step - loss: 0.1530 - accuracy: 0.9339 - val_loss: 0.2073 - val_accuracy: 0.9109
- Epoch 12/20
- 500/500 [==============================] - 49s 97ms/step - loss: 0.1433 - accuracy: 0.9405 - val_loss: 0.1706 - val_accuracy: 0.9306
- Epoch 13/20
- 500/500 [==============================] - 51s 101ms/step - loss: 0.1383 - accuracy: 0.9407 - val_loss: 0.1810 - val_accuracy: 0.9261
- Epoch 14/20
- 500/500 [==============================] - 49s 97ms/step - loss: 0.1320 - accuracy: 0.9437 - val_loss: 0.1699 - val_accuracy: 0.9266
- Epoch 15/20
- 500/500 [==============================] - 50s 100ms/step - loss: 0.1227 - accuracy: 0.9490 - val_loss: 0.1743 - val_accuracy: 0.9314
- Epoch 16/20
- 500/500 [==============================] - 48s 96ms/step - loss: 0.1160 - accuracy: 0.9502 - val_loss: 0.1738 - val_accuracy: 0.9311
- Epoch 17/20
- 500/500 [==============================] - 49s 98ms/step - loss: 0.1234 - accuracy: 0.9502 - val_loss: 0.1987 - val_accuracy: 0.9249
- Epoch 18/20
- 500/500 [==============================] - 48s 96ms/step - loss: 0.1119 - accuracy: 0.9524 - val_loss: 0.1830 - val_accuracy: 0.9316
- Epoch 19/20
- 500/500 [==============================] - 54s 108ms/step - loss: 0.1055 - accuracy: 0.9539 - val_loss: 0.2006 - val_accuracy: 0.9301
- Epoch 20/20
+ Epoch 1/20<br>
+ 500/500 [==============================] - 54s 103ms/step - loss: 0.5233 - accuracy: 0.7200 - val_loss: 0.3161 - val_accuracy: 0.<br>
+ Epoch 2/20<br>
+ 500/500 [==============================] - 51s 101ms/step - loss: 0.3167 - accuracy: 0.8633 - val_loss: 0.2704 - val_accuracy: 0.8801<br>
+ Epoch 3/20<br>
+ 500/500 [==============================] - 49s 98ms/step - loss: 0.2683 - accuracy: 0.8835 - val_loss: 0.2241 - val_accuracy: 0.9009<br>
+ Epoch 4/20<br>
+ 500/500 [==============================] - 53s 106ms/step - loss: 0.2350 - accuracy: 0.8991 - val_loss: 0.2178 - val_accuracy: 0.9011<br>
+ Epoch 5/20<br>
+ 500/500 [==============================] - 51s 102ms/step - loss: 0.2187 - accuracy: 0.9070 - val_loss: 0.1999 - val_accuracy: 0.9124<br>
+ Epoch 6/20<br>
+ 500/500 [==============================] - 48s 95ms/step - loss: 0.2044 - accuracy: 0.9138 - val_loss: 0.2045 - val_accuracy: 0.9054<br>
+ Epoch 7/20<br>
+ 500/500 [==============================] - 49s 98ms/step - loss: 0.1862 - accuracy: 0.9204 - val_loss: 0.2010 - val_accuracy: 0.9136<br>
+ Epoch 8/20<br>
+ 500/500 [==============================] - 51s 101ms/step - loss: 0.1785 - accuracy: 0.9236 - val_loss: 0.1842 - val_accuracy: 0.9206<br>
+ Epoch 9/20<br>
+ 500/500 [==============================] - 50s 101ms/step - loss: 0.1687 - accuracy: 0.9287 - val_loss: 0.1802 - val_accuracy: 0.9226<br>
+ Epoch 10/20<br>
+ 500/500 [==============================] - 49s 99ms/step - loss: 0.1588 - accuracy: 0.9327 - val_loss: 0.1749 - val_accuracy: 0.9276<br>
+ Epoch 11/20<br>
+ 500/500 [==============================] - 48s 97ms/step - loss: 0.1530 - accuracy: 0.9339 - val_loss: 0.2073 - val_accuracy: 0.9109<br>
+ Epoch 12/20<br>
+ 500/500 [==============================] - 49s 97ms/step - loss: 0.1433 - accuracy: 0.9405 - val_loss: 0.1706 - val_accuracy: 0.9306<br>
+ Epoch 13/20<br>
+ 500/500 [==============================] - 51s 101ms/step - loss: 0.1383 - accuracy: 0.9407 - val_loss: 0.1810 - val_accuracy: 0.9261<br>
+ Epoch 14/20<br>
+ 500/500 [==============================] - 49s 97ms/step - loss: 0.1320 - accuracy: 0.9437 - val_loss: 0.1699 - val_accuracy: 0.9266<br>
+ Epoch 15/20<br>
+ 500/500 [==============================] - 50s 100ms/step - loss: 0.1227 - accuracy: 0.9490 - val_loss: 0.1743 - val_accuracy: 0.9314<br>
+ Epoch 16/20<br>
+ 500/500 [==============================] - 48s 96ms/step - loss: 0.1160 - accuracy: 0.9502 - val_loss: 0.1738 - val_accuracy: 0.9311<br>
+ Epoch 17/20<br>
+ 500/500 [==============================] - 49s 98ms/step - loss: 0.1234 - accuracy: 0.9502 - val_loss: 0.1987 - val_accuracy: 0.9249<br>
+ Epoch 18/20<br>
+ 500/500 [==============================] - 48s 96ms/step - loss: 0.1119 - accuracy: 0.9524 - val_loss: 0.1830 - val_accuracy: 0.9316<br>
+ Epoch 19/20<br>
+ 500/500 [==============================] - 54s 108ms/step - loss: 0.1055 - accuracy: 0.9539 - val_loss: 0.2006 - val_accuracy: 0.9301<br>
+ Epoch 20/20<br>
  500/500 [==============================] - 48s 96ms/step - loss: 0.0975 - accuracy: 0.9601 - val_loss: 0.2021 - val_accuracy: 0.9276
  - Average training accuracy: 91.83320850133896 %
  - Average validation accuracy: 91.61116629838943 %
