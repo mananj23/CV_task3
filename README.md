@@ -74,8 +74,8 @@
  54s 108ms/step - loss: 0.1055 - accuracy: 0.9539 - val_loss: 0.2006 - val_accuracy: 0.9301<br>
  Epoch 20/20<br>
  48s 96ms/step - loss: 0.0975 - accuracy: 0.9601 - val_loss: 0.2021 - val_accuracy: 0.9276
- - Average training accuracy:**91.83320850133896%**
- - Average validation accuracy:**91.61116629838943%**
+ - Average training accuracy: **91.83320850133896%**
+ - Average validation accuracy: **91.61116629838943%**
 # Loading saved model
  - Then i loaded a saved Keras model from the file path ("./training/model-007.model"), that we pre-trained in the last step.
  - And also reloaded the haarcascade_frontalface_default.xml file.
@@ -92,6 +92,7 @@
   - There are two ways you can print output using the function:
      - Upload a zip file.(as I have done in ipnb file)
      - Take live photos and capture.(as shown in the example in the ipynb file)
+     - I have also attached a pdf containing some manually tested cases using method 1
        
    
 
