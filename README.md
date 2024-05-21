@@ -10,7 +10,7 @@
   - Data description :
     - There are 89,443 pictures in total for training, which are divided into two groups (male and female). Additionally, there are 20,714 pictures for validation.
   - These datasets had alot of data so i had to make my own dataset that contains a mixture of both the data sets in sufficient quantities.
-  - googel drive link - ("https://drive.google.com/file/d/1SqXnVBAY0RpIuvBie9hvdgfQh4wryp5b/view?usp=sharing")
+  - google drive link - ("https://drive.google.com/file/d/1SqXnVBAY0RpIuvBie9hvdgfQh4wryp5b/view?usp=sharing")
 # Categorising data
  - I categorised my dataset by reading file_name present in inside the folder by importing os.<br>
    {'Male': 0, 'Female': 1}
@@ -23,9 +23,19 @@
  - I also had to keep in mind that my target is categorical.
 # Applying CNN model
  - I used the Convolutional Neural Network (CNN) model using the Keras library.
- - I first fixed all of the hyperparameters that includes number of filters (or kernels) in the convolutional layers, the size of the convolutional filters in the first two convolutional layers,
-   size of the convolutional filters in the last two convolutional layers, size of the max-pooling window, and number of nodes in the fully connected layers.
+ - I first fixed all of the hyperparameters that includes number of filters (or kernels) in the convolutional layers, the size of the convolutional filters in the first two 
+   convolutional layers,size of the convolutional filters in the last two convolutional layers, size of the max-pooling window, and number of nodes in the fully connected 
+   layers.
  - Then I created a sequential model object, using sequential().
+ - Then i defined the Model Architecture using Convolutional Layers,Dropout Layers and Fully Connected Layers.
+ - And finally i compiled my model.
+ - I also used ModelCheckpoint, this callback function monitors the validation loss during training and saves the model weights to a file when the validation loss improves.
+ - I also created an object called 'history' containing all the information about the training process, such as loss and accuracy metrics over epochs.
  - 
+# Loading saved model
+ - Then i loaded a saved Keras model from the file path ("./training/model-007.model"), that we pre-trained in the last step.
+ - And also reloaded the haarcascade_frontalface_default.xml file.
+ - Now our model is ready to use.
+# Gender detection
  - 
-# 
+
