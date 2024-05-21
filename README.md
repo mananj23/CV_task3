@@ -35,7 +35,7 @@
  - I got the following accuracies in epochs from 1 to 20.<br>
 
  Epoch 1/20<br>
- 500/500 [==============================] - 54s 103ms/step - loss: 0.5233 - accuracy: 0.7200 - val_loss: 0.3161 - val_accuracy: 0.<br>
+ 500/500 [==============================] - 54s 103ms/step - loss: 0.5233 - accuracy: 0.7200 - val_loss: 0.3161 - val_accuracy: 0.8901<br>
  Epoch 2/20<br>
  500/500 [==============================] - 51s 101ms/step - loss: 0.3167 - accuracy: 0.8633 - val_loss: 0.2704 - val_accuracy: 0.8801<br>
  Epoch 3/20<br>
