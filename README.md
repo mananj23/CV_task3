@@ -92,7 +92,7 @@
   - There are two ways you can print output using the function:
      - Upload a zip file.(as I have done in ipynb file)
      - Take live photos and capture.(as shown in the example in the ipynb file)
-     - I have also attached a pdf containing some manually tested cases using method 1
+    
        
    
 
