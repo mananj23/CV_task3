@@ -92,6 +92,10 @@
   - There are two ways you can print output using the function:
      - Upload a zip file.(as I have done in ipynb file)
      - Take live photos and capture.(as shown in the example in the ipynb file)
+ # INSTRUCTION FOR RUNNING THE CODE
+ - You just have to upload the zip file 'dataset.zip'(given in Google Drive link) and the 'haarcascade_frontalface_default.xml to haarcascade_frontalface_default.xml' that 
+   i have attached.
+ - You can either upload your own set of test images(at the end) in a zip folder or use mine that i have attached('testing.zip').
     
        
    
