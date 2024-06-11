@@ -1,6 +1,4 @@
-# CV_task3
-- Computer Vision - task 3 for pclub secy recruitment - MANAN JINDAL 230625
-- I did coding in google colab.
+
 # Finding data set
  - I found a data set on Kaggle('https://www.kaggle.com/datasets/yasserhessein/gender-dataset') 
  - Data description :
